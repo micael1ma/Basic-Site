@@ -1,0 +1,14 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16345 7.16344 0 16 0C24.8366 0 32 7.16345 32 16Z" fill="black"/>
+<path d="M32 16C32 24.8366 24.8366 32 16 32C7.16344 32 0 24.8366 0 16C0 7.16345 7.16344 0 16 0C24.8366 0 32 7.16345 32 16Z" fill="black"/>
+<path d="M30 16C30 23.732 23.732 30 16 30C8.26801 30 2 23.732 2 16C2 8.26801 8.26801 2 16 2C23.732 2 30 8.26801 30 16Z" fill="white"/>
+<path d="M30 16C30 23.732 23.732 30 16 30C8.26801 30 2 23.732 2 16C2 8.26801 8.26801 2 16 2C23.732 2 30 8.26801 30 16Z" fill="white"/>
+<ellipse cx="16" cy="26" rx="11" ry="4" fill="black"/>
+<ellipse cx="16" cy="27" rx="9" ry="4" fill="white"/>
+<ellipse cx="16" cy="6" rx="11" ry="4" fill="black"/>
+<ellipse cx="16" cy="5" rx="9" ry="4" fill="white"/>
+<path d="M24 16C24 24.8366 20.4183 32 16 32C11.5817 32 8 24.8366 8 16C8 7.16344 11.5817 0 16 0C20.4183 0 24 7.16344 24 16Z" fill="black"/>
+<ellipse cx="16" cy="16" rx="6" ry="14" fill="white"/>
+<rect x="15" y="30" width="28" height="2" transform="rotate(-90 15 30)" fill="black"/>
+<rect x="2" y="15" width="28" height="2" fill="black"/>
+</svg>

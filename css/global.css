@@ -1,0 +1,21 @@
+body {
+  font-family: "Fira Sans";
+  margin: 0px;
+  color: #141414;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 4px;
+}
+ /* * {
+  border: solid 1px red;
+} * */

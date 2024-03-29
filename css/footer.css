@@ -1,0 +1,110 @@
+footer {
+  background-color: #000000;
+  color: white;
+}
+
+.conteiner-footer {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 120px;
+  padding-bottom: 10px;
+  column-gap: 240px;
+  row-gap: 78px;
+}
+.negociacao {
+  max-width: 35ch;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #cccccc;
+}
+
+.contato {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: #ffffff;
+}
+
+.link {
+  text-transform: lowercase;
+  text-decoration: none;
+  color: #8f8f8f;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 1100px) {
+  .negociacao {
+    min-width: 20ch;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #cccccc;
+    /* background-color: purple; */
+  }
+
+  .contato {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #ffffff;
+  }
+
+  .conteiner-footer {
+    column-gap: 40px;
+  }
+}
+
+@media (max-width: 850px) {
+  .conteiner-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding-top: 90px;
+  }
+
+  .negociacao {
+    margin: auto;
+  }
+
+  .contato {
+    display: flex;
+    place-content: space-between;
+    font-size: 1rem;
+  }
+
+  .link {
+    font-size: 0.3rem;
+    text-align: right;
+  }
+}
+
+@media (max-width: 650px) {
+  .contato {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .negociacao {
+    font-size: 1.25rem;
+  }
+
+  .contato {
+    font-size: 0.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .conteiner-footer {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .negociacao {
+    text-align: center;
+    font-size: 0.75rem;
+  }
+
+  .link {
+    padding-bottom: 0px;
+  }
+}
